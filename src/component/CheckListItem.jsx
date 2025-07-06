@@ -1,20 +1,18 @@
 import React from "react";
-import { todoData } from "../assets/todoData";
+import todoData from "../assets/todoData";
 
-const myComponents = todoData.map(({ id, text, completed }) => (
-  <MyComponent key={id} myFirstProps={text} mySecondProp={completed} />
-));
+const myItems = ({ id, text, completed }) => (
+  <div className="items">
+    <ul>
+      <li>{text}</li>
+    </ul>
+  </div>
+);
 
-const CheckListItem = () => {
-  return (
-    <div>
-      <ul>
-        <li>Eat</li>
-        <li>Pray</li>
-        <li>Love</li>
-      </ul>
-    </div>
-  );
+const CheckListItem = ({ todoData }) => {
+  const itemList = todoData.map((myItems) => {
+    todoData;
+  });
 };
 
 export default CheckListItem;

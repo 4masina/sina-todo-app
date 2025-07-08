@@ -7,13 +7,13 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href=""></a>1
+              <a href="">link 1</a>
             </li>
             <li>
-              <a href=""></a>2
+              <a href="">link 2</a>
             </li>
             <li>
-              <a href=""></a>3
+              <a href="">link 3</a>
             </li>
           </ul>
         </nav>
